@@ -1,0 +1,30 @@
+.movie-short {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    object-fit: none;
+    z-index: 0;
+  }
+  &-info {
+    padding: 20px;
+    z-index: 1;
+  }
+  &-title {
+    font-size: 30px;
+    color: white
+  }
+  &-overview {
+    inline-size: min-content;
+    color: white;
+    overflow: hidden;
+    width: 500px;
+    padding-top: 20px;
+  }
+}

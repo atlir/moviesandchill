@@ -1,0 +1,8 @@
+.links-dropdown {
+  position: relative;
+  &-list {
+    display: none;
+    position: absolute;
+    top: 500px;
+  }
+}
